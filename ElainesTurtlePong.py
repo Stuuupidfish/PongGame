@@ -106,16 +106,16 @@ while True:
 		dy *= -1
 	
 	if (ball.x > player2.x - player2.width * scale/2 and
-		ball.x < player2.x + player2.width * scale/2 and
-		ball.y > player2.y - player2.height * scale/2 and
-		ball.y < player2.y + player2.height * scale/2):
+	ball.x < player2.x + player2.width * scale/2 and
+	ball.y > player2.y - player2.height * scale/2 and
+	ball.y < player2.y + player2.height * scale/2):
 		dx *= -1  
 		ball.x = player2.x - (player2.width * scale/2)
 
 	if (ball.x > player1.x - player1.width * scale/2 and
-		ball.x < player1.x + player1.width * scale/2 and
-		ball.y > player1.y - player1.height * scale/2 and
-		ball.y < player1.y + player1.height * scale/2):
+	ball.x < player1.x + player1.width * scale/2 and
+	ball.y > player1.y - player1.height * scale/2 and
+	ball.y < player1.y + player1.height * scale/2):
 		dx *= -1  
 		ball.x = player1.x + (player1.width * scale/2)
 
