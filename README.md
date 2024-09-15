@@ -1,2 +1,2 @@
 # Pong
-# Here are some of the ways to write pong
+Here are some of the ways to write pong
